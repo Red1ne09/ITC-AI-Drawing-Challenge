@@ -1,0 +1,8 @@
+The command excludes:
+
+vendor/ - Composer dependencies (regeneratable via composer install)
+node_modules/ - NPM dependencies (regeneratable via npm install)
+storage/ - Logs, cache, framework files
+.env - Secrets/environment config
+.phpunit.result.cache - Test cache
+composer.lock / package-lock.json - Lock files (regeneratable)
